@@ -1,0 +1,67 @@
+package br.com.dienepher.aplication;
+
+public class ModeloTv002 extends TelevisaoHeranca implements ContoleRemotoInterface  {
+	
+	public static final String MODELO = "Tv002";
+	
+	public ModeloTv002() {
+		super();
+		
+	}
+
+	@Override
+	public void ligarTv() {
+		super.setLigada(true);
+		
+	}
+
+	@Override
+	public void desligarTv() {
+		super.setLigada(false);
+		
+	}
+
+	@Override
+	public void trocarCanal(int canal) {
+		Integer aux = super.getCanalAtual();
+		super.setCanalAtual(aux);
+		super.setUltimaCanal(canal);
+		
+	}
+
+	@Override
+	public void aumentarVolume(int nivel) {
+		Integer volume = super.getVolume();
+		volume += nivel;
+		super.setVolume(volume);
+		
+	}
+
+	@Override
+	public void diminuirVolume(int nivel) {
+		Integer volume = super.getVolume();
+		volume -= nivel;
+		super.setVolume(volume);
+			
+	}
+
+	@Override
+	public void voltarUltimoCanal() {
+		Integer ultimo = super.getUltimaCanal();
+		Integer atual = super.getCanalAtual();
+		super.setCanalAtual(ultimo);
+		super.setUltimaCanal(atual);
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Modelo ["+MODELO+", getTamanhoTela()=" + getTamanhoTela() + ", getCanalAtual()=" + getCanalAtual()
+				+ ", getUltimaCanal()=" + getUltimaCanal() + ", getVolume()=" + getVolume() + ", getLigada()="
+				+ getLigada() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
+	
+	
+	
+}

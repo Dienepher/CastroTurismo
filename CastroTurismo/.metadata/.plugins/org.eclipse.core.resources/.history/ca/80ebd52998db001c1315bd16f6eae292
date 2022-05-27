@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_eAf_0NuLEeyRKJxqZL3t2g" type="PapyrusUMLClassDiagram" name="CastroTurismo" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_eAf_0duLEeyRKJxqZL3t2g" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_eAf_0tuLEeyRKJxqZL3t2g"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_eAf_09uLEeyRKJxqZL3t2g" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="EstudoDeCaso.uml#_PU_NoNuLEeyRKJxqZL3t2g"/>
+    </styles>
+    <element xmi:type="uml:Model" href="EstudoDeCaso.uml#_PU_NoNuLEeyRKJxqZL3t2g"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_usQygNuLEeyRKJxqZL3t2g" type="UseCase" name="Casos de uso" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_wBjKcNuLEeyRKJxqZL3t2g" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_wBrGQNuLEeyRKJxqZL3t2g" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wBrtUNuLEeyRKJxqZL3t2g" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_wBrtUduLEeyRKJxqZL3t2g" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wBrtUtuLEeyRKJxqZL3t2g" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_wBrtU9uLEeyRKJxqZL3t2g" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wBrtVNuLEeyRKJxqZL3t2g" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_wBrtVduLEeyRKJxqZL3t2g" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wBrtVtuLEeyRKJxqZL3t2g" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="EstudoDeCaso.uml#_wBYLUNuLEeyRKJxqZL3t2g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wBjKcduLEeyRKJxqZL3t2g" x="88" y="158"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_usQygduLEeyRKJxqZL3t2g" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_usQygtuLEeyRKJxqZL3t2g"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_usQyg9uLEeyRKJxqZL3t2g" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner xmi:type="uml:Model" href="EstudoDeCaso.uml#_PU_NoNuLEeyRKJxqZL3t2g"/>
+    </styles>
+    <element xmi:type="uml:Model" href="EstudoDeCaso.uml#_PU_NoNuLEeyRKJxqZL3t2g"/>
+  </notation:Diagram>
+</xmi:XMI>

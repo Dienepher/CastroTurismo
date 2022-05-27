@@ -1,0 +1,24 @@
+package br.com.dienepher.aplication;
+
+public class MainTv {
+
+	public static void main(String[] args) {
+
+		ModeloTv001 tv001 = new ModeloTv001();
+
+		tv001.setTamanhoTela(14);
+
+		tv001.setCanalAtual(10);
+
+		tv001.setTamanhoTela(20);
+
+		tv001.setLigada(false);
+		
+		System.out.println(tv001.getTamanhoTela());
+		System.out.println(tv001.getCanalAtual());
+		System.out.println(tv001.getUltimaCanal());
+		System.out.println(tv001.getLigada() ? "Ligada" : "Desligada");
+
+	}
+
+}

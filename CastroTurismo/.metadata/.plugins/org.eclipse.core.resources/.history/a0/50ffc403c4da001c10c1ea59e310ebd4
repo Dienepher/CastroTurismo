@@ -1,0 +1,93 @@
+package br.com.dienepher.aplication;
+
+import java.util.Calendar;
+
+public class ModeloTv003  extends TelevisaoHeranca implements ContoleRemotoInterface  {
+	
+	public static final String MODELO = "Tv003";
+	
+	
+	
+		public ModeloTv003() {
+			super();
+			
+		}
+
+		@Override
+		public void ligarTv() {
+			super.setLigada(true);
+			System.out.println("TV ligada");
+			
+		}
+
+		@Override
+		public void desligarTv() {
+			super.setLigada(false);
+			System.out.println("TV Desligada");
+			
+		}
+
+		@Override
+		public void trocarCanal(int canal) {
+			Integer aux = super.getCanalAtual();
+			super.setCanalAtual(aux);
+			super.setUltimoCanal(canal);
+			System.out.println("Canal"+canal);
+			
+		}
+
+		@Override
+		public void aumentarVolume(int nivel) {
+			Integer volume = super.getVolume();
+			volume += nivel;
+			super.setVolume(volume);
+			System.out.println("Volume"+volume);
+			
+		}
+
+		@Override
+		public void diminuirVolume(int nivel) {
+			Integer volume = super.getVolume();
+			volume -= nivel;
+			super.setVolume(volume);
+			System.out.println("Volume"+volume);
+				
+		}
+
+		@Override
+		public void voltarUltimoCanal() {
+			Integer ultimo = super.getUltimoCanal();
+			Integer atual = super.getCanalAtual();
+			super.setCanalAtual(ultimo);
+			super.setUltimoCanal(atual);
+			System.out.println("Canal"+ultimo);
+			
+		}
+
+		@Override
+		public String toString() {
+			return "Modelo "+MODELO+"\nTamanho Tela =" + getTamanhoTela() + "\nCanal Atual =" + getCanalAtual()
+					+ "\n Ultimo Canal =" + getUltimoCanal() + "\nVolume =" + getVolume() + "\nLigada ="
+					+ getLigada() ;
+	
+		}
+		
+		public void mostrarMensagem() {
+			Calendar c = Calendar.getInstance();
+			
+			Integer hour = c.HOUR_OF_DAY;
+			
+
+			if(hour >= 5 && hour <=12) {
+				System.out.println("Bom dia!");
+			}else if(hour <= 18) {
+				System.out.println("Boa tarde!");
+			}else {
+				System.out.println("Boa noite!");
+			}
+			
+			
+		}
+	
+}
+

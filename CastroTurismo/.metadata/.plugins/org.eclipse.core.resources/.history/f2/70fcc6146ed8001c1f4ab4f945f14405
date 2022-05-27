@@ -1,0 +1,18 @@
+package br.com.dienepher.aplication;
+
+/**
+ * Classe Inteface do contole remoto
+ * @author dienepher.8978
+ *
+ */
+
+public interface ContoleRemotoInterface {
+	
+	public void ligatTv();
+	public void desligarTv();
+	public void trocarCanal(int canal);
+	public void aumentarVolume(int nivel);
+	public void diminuirVolume(int nivel);
+	public void voltarUltimoCanal();
+
+}

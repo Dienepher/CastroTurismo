@@ -1,0 +1,19 @@
+package br.com.dienepher.aplication.Interna;
+
+public class externa {
+	
+	private String texto = "Externa";
+	
+	public void imprimir() {
+		System.out.println(texto);
+	}
+	
+	public class Interna{
+		private String texto = "Interna";
+		
+		public void imprimir() {
+			System.out.println(Externa.this.texto);
+		}
+	}
+
+}

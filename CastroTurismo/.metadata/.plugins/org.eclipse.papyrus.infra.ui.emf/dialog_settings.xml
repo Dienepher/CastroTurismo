@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/EstudoDeCaso/EstudoDeCaso.uml:uml:Type:type">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+				<item value="platform:/resource/EstudoDeCaso/EstudoDeCaso.uml#_wtNHwNxVEeyQEN9emlaDsw"/>
+				<item value="platform:/resource/EstudoDeCaso/EstudoDeCaso.uml#_CfeQgNxLEeyQEN9emlaDsw"/>
+				<item value="platform:/resource/EstudoDeCaso/EstudoDeCaso.uml#_EQPqkNxLEeyQEN9emlaDsw"/>
+				<item value="platform:/resource/EstudoDeCaso/EstudoDeCaso.uml#_NPkZMNxPEeyQEN9emlaDsw"/>
+				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+			</list>
+		</section>
+	</section>
+</section>

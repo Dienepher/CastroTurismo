@@ -1,0 +1,12 @@
+package br.com.dienepher.aplication.Externa;
+
+public class externa {
+	
+	private String texto = "Externa";
+	
+public void imprimir() {
+	System.out.println(texto);
+}
+
+public class i
+}

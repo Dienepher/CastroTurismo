@@ -1,0 +1,116 @@
+package br.com.dienepher.aplication;
+
+/**
+ * Classe Mae do modelo tv
+ * @author dienepher.8978
+ *@version 1.0.0
+ *@since 1.1.2
+ *@see http//www.github.com.br/Dienepher
+ *
+ */
+
+/*
+ * Lombok
+ */
+public class TelevisaoHeranca {
+	
+	/**
+	 *Possiveis Variaveis
+	 */
+	
+	private Integer tamanhoTela;
+	
+	private Integer canalAtual;
+	
+	private Integer ultimaCanal;
+	
+	private Integer volume;
+	
+	private Boolean ligada;
+	
+	public TelevisaoHeranca() {
+		
+	}
+
+	/**
+	 * Metodo contrutor da super classe com atributo.
+	 * @param tamanhoTela
+	 */
+	public TelevisaoHeranca(Integer tamanhoTela) {
+		super();
+		this.tamanhoTela = tamanhoTela;
+	}
+
+	/**
+	 * @return the tamanhoTela
+	 */
+	public Integer getTamanhoTela() {
+		return tamanhoTela;
+	}
+
+	/**
+	 * @param tamanhoTela the tamanhoTela to set
+	 */
+	public void setTamanhoTela(Integer tamanhoTela) {
+		this.tamanhoTela = tamanhoTela;
+	}
+
+	/**
+	 * @return the canalAtual
+	 */
+	public Integer getCanalAtual() {
+		return canalAtual;
+	}
+
+	/**
+	 * @param canalAtual the canalAtual to set
+	 */
+	public void setCanalAtual(Integer canalAtual) {
+		this.canalAtual = canalAtual;
+	}
+
+	/**
+	 * @return the ultimaCanal
+	 */
+	public Integer getUltimaCanal() {
+		return ultimaCanal;
+	}
+
+	/**
+	 * @param ultimaCanal the ultimaCanal to set
+	 */
+	public void setUltimaCanal(Integer ultimaCanal) {
+		this.ultimaCanal = ultimaCanal;
+	}
+
+	/**
+	 * @return the volume
+	 */
+	public Integer getVolume() {
+		return volume;
+	}
+
+	/**
+	 * @param volume the volume to set
+	 */
+	public void setVolume(Integer volume) {
+		this.volume = volume;
+	}
+
+	/**
+	 * @return the ligada
+	 */
+	public Boolean getLigada() {
+		return ligada;
+	}
+
+	/**
+	 * @param ligada the ligada to set
+	 */
+	public void setLigada(Boolean ligada) {
+		this.ligada = ligada;
+	}
+
+	
+	
+}

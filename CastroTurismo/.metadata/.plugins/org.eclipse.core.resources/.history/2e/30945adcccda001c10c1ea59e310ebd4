@@ -1,0 +1,111 @@
+package br.com.dienepher.aplication.pessoa;
+
+/**
+ * Abstracao da classe mae de pessoas.
+ * ela nao pode ser instanciada.
+ * @author dienepher.8978
+ *
+ */
+public abstract class Pessoa {
+	
+	private PessoaEndereco Endereco = new PessoaEndereco();
+	/**
+	 * 
+	 */
+	
+	public Pessoa() {
+		super();
+	}
+	
+	
+	/**
+	 * @return the nome
+	 */
+	public String getNome() {
+		return Endereco.getNome();
+	}
+	/**
+	 * @param nome the nome to set
+	 */
+	public void setNome(String nome) {
+		this.Endereco.setNome(nome);
+	}
+	/**
+	 * @return the endereco
+	 */
+	public String getEndereco() {
+		return Endereco.getEndereco();
+	}
+	/**
+	 * @param endereco the endereco to set
+	 */
+	public void setEndereco(String endereco) {
+		this.Endereco.setEndereco(endereco);
+	}
+	/**
+	 * @return the bairro
+	 */
+	public String getBairro() {
+		return Endereco.getBairro();
+	}
+	/**
+	 * @param bairro the bairro to set
+	 */
+	public void setBairro(String bairro) {
+		this.Endereco.setBairro(bairro);
+	}
+	/**
+	 * @return the cidade
+	 */
+	public String getCidade() {
+		return Endereco.getCidade();
+	}
+	/**
+	 * @param cidade the cidade to set
+	 */
+	public void setCidade(String cidade) {
+		this.Endereco.setCidade(cidade);
+	}
+	/**
+	 * @return the pais
+	 */
+	public String getPais() {
+		return Endereco.getPais();
+	}
+	/**
+	 * @param pais the pais to set
+	 */
+	public void setPais(String pais) {
+		this.Endereco.setPais(pais);
+	}
+	/**
+	 * @return the email
+	 */
+	public String getEmail() {
+		return Endereco.getEmail();
+	}
+	/**
+	 * @param email the email to set
+	 */
+	public void setEmail(String email) {
+		this.Endereco.setEmail(email);
+	}
+	/**
+	 * @return the telefone
+	 */
+	public String getTelefone() {
+		return Endereco.getTelefone();
+	}
+	/**
+	 * @param telefone the telefone to set
+	 */
+	public void setTelefone(String telefone) {
+		this.Endereco.setTelefone(telefone);
+	}
+	
+	public abstract void imprimir() ;
+	
+		
+	
+
+}

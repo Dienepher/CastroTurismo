@@ -1,0 +1,7 @@
+package br.com.dienepher.aplication;
+
+public class Tv002 {
+	
+	public static final String MODELO = "Tv003";
+	
+}

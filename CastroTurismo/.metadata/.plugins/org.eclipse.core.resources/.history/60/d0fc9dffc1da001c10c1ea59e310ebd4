@@ -1,0 +1,67 @@
+package br.com.dienepher.aplication;
+
+/**
+ * classe concreta do tipo Pessoa Fisica
+ * Herda da classe abstraa Pessoa
+ * @author dienepher.8978
+ *
+ */
+
+public class PessoaFisica extends Pessoa{
+	
+	private String cpf;
+	private String rg;
+	private Integer reservista;
+	
+	public PessoaFisica() {
+	}
+		
+		public void imprimir() {
+			
+			System.out.println(super.getNome() + ", "+super.getCidade()+ ", "+ this.cpf);
+		}
+
+		/**
+		 * @return the cpf
+		 */
+		public String getCpf() {
+			return cpf;
+		}
+
+		/**
+		 * @param cpf the cpf to set
+		 */
+		public void setCpf(String cpf) {
+			this.cpf = cpf;
+		}
+
+		/**
+		 * @return the rg
+		 */
+		public String getRg() {
+			return rg;
+		}
+
+		/**
+		 * @param rg the rg to set
+		 */
+		public void setRg(String rg) {
+			this.rg = rg;
+		}
+
+		/**
+		 * @return the reservista
+		 */
+		public Integer getReservista() {
+			return reservista;
+		}
+
+		/**
+		 * @param reservista the reservista to set
+		 */
+		public void setReservista(Integer reservista) {
+			this.reservista = reservista;
+		}
+		
+
+}

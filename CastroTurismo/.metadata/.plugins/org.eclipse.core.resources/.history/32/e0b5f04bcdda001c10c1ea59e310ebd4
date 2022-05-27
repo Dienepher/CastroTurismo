@@ -1,0 +1,30 @@
+package br.com.dienepher.aplication.pessoa;
+
+public class MainPessoa {
+	
+	public static void main(String[] args) {
+		
+//		PessoaFisica pf = new PessoaFisica();
+		PessoaJuridica pf = new PessoaJuridica();
+		
+//		dados classe abstrata (Modelo)
+		pf.setNome("Dienepher");
+		pf.setEndereco("Rua da camelias");
+		pf.setBairro("Termas");
+		pf.setCidade("Castro/PR");
+		pf.setPais("Brasil");
+		
+////		dados especificos fisico
+//		pf.setCpf("012.345.678-90");
+//		pf.setRg("012345678");
+//		pf.setReservista(12345678);		
+		
+//		dados especificos juridico
+		pf.setCnpj("23.405.084/7607-04");
+		pf.setAlvara("463234");
+		pf.setInscricao("6824534");
+		
+		pf.imprimir();
+	}
+
+}

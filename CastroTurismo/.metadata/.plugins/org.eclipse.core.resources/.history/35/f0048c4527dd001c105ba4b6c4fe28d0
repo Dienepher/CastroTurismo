@@ -1,0 +1,5 @@
+package br.com.dienepher.domain.pessoa;
+
+public abstract class Pessoa {
+
+}

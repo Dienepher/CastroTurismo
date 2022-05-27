@@ -1,0 +1,9 @@
+package br.com.dienepher.aplication;
+
+/**
+ * @author dienepher.8978
+ *
+ */
+public abstract class Pessoa {
+
+}
