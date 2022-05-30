@@ -11,18 +11,18 @@ import java.io.Serializable;
 
 public class Motorista extends Funcionario implements Serializable {
 	
-	Integer CNH;
-	String Categoria;
-	Boolean EAR;
+	private static final long serialVersionUID = 1L;
 	
-private Funcionario funcionario;
+	private Integer CNH;
+	private String Categoria;
+	private Boolean EAR;
+
 	
 	public Motorista() {
 		super();
 	}
 
-	
-	
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -30,10 +30,8 @@ private Funcionario funcionario;
 		result = prime * result + ((CNH == null) ? 0 : CNH.hashCode());
 		result = prime * result + ((Categoria == null) ? 0 : Categoria.hashCode());
 		result = prime * result + ((EAR == null) ? 0 : EAR.hashCode());
-		result = prime * result + ((funcionario == null) ? 0 : funcionario.hashCode());
 		return result;
 	}
-
 
 
 	@Override
@@ -60,14 +58,8 @@ private Funcionario funcionario;
 				return false;
 		} else if (!EAR.equals(other.EAR))
 			return false;
-		if (funcionario == null) {
-			if (other.funcionario != null)
-				return false;
-		} else if (!funcionario.equals(other.funcionario))
-			return false;
 		return true;
 	}
-
 
 
 	@Override
@@ -77,13 +69,11 @@ private Funcionario funcionario;
 	}
 
 
-
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
 		return super.toString();
 	}
-
 
 
 	@Override
@@ -93,13 +83,11 @@ private Funcionario funcionario;
 	}
 
 
-
 	@Override
 	public Integer getId() {
 		// TODO Auto-generated method stub
 		return super.getId();
 	}
-
 
 
 	@Override
@@ -109,13 +97,11 @@ private Funcionario funcionario;
 	}
 
 
-
 	@Override
 	public String getNome() {
 		// TODO Auto-generated method stub
 		return super.getNome();
 	}
-
 
 
 	@Override
@@ -125,13 +111,11 @@ private Funcionario funcionario;
 	}
 
 
-
 	@Override
 	public Integer getNumero() {
 		// TODO Auto-generated method stub
 		return super.getNumero();
 	}
-
 
 
 	@Override
@@ -141,13 +125,11 @@ private Funcionario funcionario;
 	}
 
 
-
 	@Override
 	public Integer getCPF() {
 		// TODO Auto-generated method stub
 		return super.getCPF();
 	}
-
 
 
 	@Override
@@ -157,13 +139,11 @@ private Funcionario funcionario;
 	}
 
 
-
 	@Override
 	public Integer getRG() {
 		// TODO Auto-generated method stub
 		return super.getRG();
 	}
-
 
 
 	@Override
@@ -173,13 +153,11 @@ private Funcionario funcionario;
 	}
 
 
-
 	@Override
 	public String getOrgaoEmissor() {
 		// TODO Auto-generated method stub
 		return super.getOrgaoEmissor();
 	}
-
 
 
 	@Override
@@ -189,13 +167,11 @@ private Funcionario funcionario;
 	}
 
 
-
 	@Override
 	public Pessoa getPessoa() {
 		// TODO Auto-generated method stub
 		return super.getPessoa();
 	}
-
 
 
 	@Override
@@ -205,13 +181,11 @@ private Funcionario funcionario;
 	}
 
 
-
 	@Override
 	public Integer getNumeroDeRegistro() {
 		// TODO Auto-generated method stub
 		return super.getNumeroDeRegistro();
 	}
-
 
 
 	@Override
@@ -221,13 +195,11 @@ private Funcionario funcionario;
 	}
 
 
-
 	@Override
 	public Boolean getEstaAtivo() {
 		// TODO Auto-generated method stub
 		return super.getEstaAtivo();
 	}
-
 
 
 	@Override
@@ -237,13 +209,11 @@ private Funcionario funcionario;
 	}
 
 
-
 	@Override
 	public PessoaFisica getPessoafisica() {
 		// TODO Auto-generated method stub
 		return super.getPessoafisica();
 	}
-
 
 
 	@Override
@@ -253,13 +223,13 @@ private Funcionario funcionario;
 	}
 
 
-
 	/**
 	 * @return the cNH
 	 */
 	public Integer getCNH() {
 		return CNH;
 	}
+
 
 	/**
 	 * @param cNH the cNH to set
@@ -268,12 +238,14 @@ private Funcionario funcionario;
 		CNH = cNH;
 	}
 
+
 	/**
 	 * @return the categoria
 	 */
 	public String getCategoria() {
 		return Categoria;
 	}
+
 
 	/**
 	 * @param categoria the categoria to set
@@ -282,12 +254,14 @@ private Funcionario funcionario;
 		Categoria = categoria;
 	}
 
+
 	/**
 	 * @return the eAR
 	 */
 	public Boolean getEAR() {
 		return EAR;
 	}
+
 
 	/**
 	 * @param eAR the eAR to set
@@ -296,18 +270,12 @@ private Funcionario funcionario;
 		EAR = eAR;
 	}
 
-	/**
-	 * @return the funcionario
-	 */
-	public Funcionario getFuncionario() {
-		return funcionario;
-	}
 
 	/**
-	 * @param funcionario the funcionario to set
+	 * @return the serialversionuid
 	 */
-	public void setFuncionario(Funcionario funcionario) {
-		this.funcionario = funcionario;
+	public static long getSerialversionuid() {
+		return serialVersionUID;
 	}
 
 	

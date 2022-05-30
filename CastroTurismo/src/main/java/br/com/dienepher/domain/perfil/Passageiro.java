@@ -11,6 +11,8 @@ import java.io.Serializable;
 
 public class Passageiro extends PessoaFisica implements Serializable  {
 	
+	private static final long serialVersionUID = 1L;
+	
 	private Integer numerocartao, seguranca;
 	private String vencimento;
 	

@@ -7,6 +7,8 @@ package br.com.dienepher.domain.local;
  */
 public class Pais {
 	
+	private static final long serialVersionUID = 1L;
+	
 	private Integer id;
 	
 	private String nome;

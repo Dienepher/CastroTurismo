@@ -10,6 +10,8 @@ import java.io.Serializable;
  */
 public class PessoaJuridica  extends Pessoa implements Serializable {
 	
+	private static final long serialVersionUID = 1L;
+	
 	private Integer CNPJ;
 	private Integer InscricaoEstdual;
 	
